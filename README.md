@@ -20,7 +20,7 @@ A feature-rich calculator with scientific functions, history tracking, and keybo
 ![Calculator Demo](screenshots/demo.gif)
 
 ## 🛠️ Tech Stack
-```mermaid
+mermaid
 graph LR
     A[Frontend] --> B(HTML5)
     A --> C(CSS3 Grid/Flexbox)
