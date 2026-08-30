@@ -32,6 +32,19 @@
 </tr>
 </table>
 
+<!-- ========== NEW: SYSTEM DIAGRAM SECTION ========== -->
+## 📊 System Architecture & Workflow
+
+```mermaid
+flowchart TD
+    A[Keypress / Click Event] --> B[JavaScript Calculator Parser]
+    B --> C{Scientific Func?}
+    C -->|Yes| D[Eval Trigonometry/Math Functions]
+    C -->|No| E[Standard Arithmetic Eval]
+    D --> F[Update Glassmorphism LCD Display]
+    E --> F
+```
+
 ---
 
 # Advanced-Scientific-Calculator
